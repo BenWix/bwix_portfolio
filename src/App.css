@@ -1,38 +1,76 @@
+
 .App {
-  text-align: center;
+  text-align: left;
+  background-color: #C5CBE3;
+  /* background-image: url(./images/BackgroundandMountain.png);
+  background-size: contain;
+  background-repeat: no-repeat; */
+  width: 94%;
+  height: 100%;
+  position: absolute;
+  margin: 3%;
+  margin-top: 3%;
+  /* margin-bottom: 0rem; */
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.contact-button {
+  position: absolute;
+  width: 12rem;
+  height: 12rem;
+  left: -1.5rem;
+  top: -1.5rem;
+  transition: 500ms;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.contact-button a img {
+  width: 150%;
+  height: 120%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.contact-button:hover {
+  position: absolute;
+  left: 0rem;
+  top: 0rem;
+}
+
+
+.footer-pic img {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: relative;
+  width: 100%;
+  height: 50rem;
+  top: 15rem;
 }
 
-.App-link {
-  color: #61dafb;
+.text {
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  width: 40%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar {
+  float: right;
+  color: #474747;
+  margin: 2rem;
 }
+
+.nav-link {
+  font-size: 1.5rem;
+  margin-left: 3rem;
+  text-decoration: none;
+  transition: 300ms;
+}
+
+.nav-link:visited {
+  color: #474747
+}
+
+.nav-link:hover {
+  color:#F13C20;
+  text-decoration: underline;
+}
+
