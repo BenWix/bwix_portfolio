@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
     return (
-        <React.Fragment>
+        <div className='text'>
             <h1>Hey, I'm Ben</h1>
             {/* Switch to I statements */}
             <h3>As a software engineer and full-stack web developer with a 
@@ -13,8 +13,8 @@ const Home = () => {
                 web applications utilizing Ruby on Rails, React, Javascript, 
                 and Redux.</h3>
 
-            <h3>Check out my Projects <a href='#'>here</a> or learn more about me <a>here</a>.</h3>
-        </React.Fragment>
+            {/* <h3>Check out my Projects <a href='/portfolio'>here</a> or learn more about me <a href='/about'>here</a>.</h3> */}
+        </div>
     )
 }
 

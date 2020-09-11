@@ -3,13 +3,14 @@
 
 
 body {
-  margin: 0;
-  background-color: #F8BD4D;
-  background-image: url(images/justMountain.png);
-  background-position: center bottom -15rem;
-  background-repeat: no-repeat;
-  /* background-attachment: fixed; */
-  background-size: cover ;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  background-image: url(images/mountain.png);  
   font-family: 'Rubik', serif;
   font-size: 18px;
 }
