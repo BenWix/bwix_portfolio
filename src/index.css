@@ -12,7 +12,15 @@ body {
   max-height: 100%;
   background-image: url(images/mountain.png);  
   font-family: 'Rubik', serif;
+
   font-size: 18px;
+
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    font-size: 15px;
+  }
 }
 
 code {
