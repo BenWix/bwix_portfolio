@@ -15,7 +15,7 @@ const CustomNavbar = (props) => {
     return(
 
         <div >
-        <Navbar color="faded" light>
+        <Navbar color="faded" light expand='lg'>
           <NavbarBrand href="/" className="mr-auto">Ben W</NavbarBrand>
           <NavbarToggler onClick={toggleNavbar} className="mr-2" />
           <Collapse isOpen={!collapsed} navbar>
