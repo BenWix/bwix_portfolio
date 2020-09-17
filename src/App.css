@@ -62,7 +62,45 @@
   width: 60%;
   height: 75%;
   overflow: auto;
+}
 
+.portfolio {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  width: 70%;
+  height: 60%;
+  overflow: auto;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  width: 17em;
+  background-color: #4056A1;
+  border: 3px solid #474747;
+  border-radius: 4px;
+  padding: .5rem;
+  margin: .25em;
+}
+
+.card-body {
+  font-size: .75em;
+}
+
+.card-title {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.card-subtitle {
+  font-style: italic;
 }
 
 .about {
